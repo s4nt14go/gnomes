@@ -6,11 +6,11 @@
   </a>
 </p>
 
-## Exercise
+### Description
 
-![alt text](./exercise.png "Exercise")
+![alt text](./exercise.png "Description")
 
-## ✨ <a href="https://gnomes-aqa7s7uoga-uc.a.run.app" target="_blank">Demo</a>
+### ✨ <a href="https://gnomes-aqa7s7uoga-uc.a.run.app" target="_blank">Demo</a>
 
 ## Install
 

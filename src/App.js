@@ -49,8 +49,9 @@ function App() {
       } catch (e) { // I have to put this checking because at some time https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json (and the thumbnail images server too) was returning error 503 Service temporarily unavailable, if I didn't it wouldn't be possible to check table functionality
         console.log(e);
         if (!inhabitants) {
-          console.log(`As there was an error from ` + url + ` and the wasn't data already saved in the cache neither, it will be read from resources/gnomes.json`);
-          console.log(Brastlewark)
+          console.log(`As there was an error from ` + url + ` and there wasn't data already saved in the cache neither, it will be read from resources/gnomes.json`);
+          console.log(Brastlewark);
+          dispatch(gotFromServer(Brastlewark)); // Dispatch with gotFromServer action to persist data in localStorage
         }
       }
     };
